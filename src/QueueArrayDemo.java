@@ -1,5 +1,5 @@
 
-public class QueueLinkedListDemo {
+public class QueueArrayDemo {
 
 	public static void main(String[] args) {
 		Order o1 = new Order("Reece","Cookie","Coffee");
@@ -7,7 +7,7 @@ public class QueueLinkedListDemo {
 		Order o3 = new Order("aiosdf","fd","Sg");
 		Order o4 = new Order("In","Bp","Song");
 
-		QueueLinkedList Queue = new QueueLinkedList();
+		QueueArray Queue = new QueueArray(6);
 		
 		Queue.enqueue(o1);
 		Queue.enqueue(o2);
